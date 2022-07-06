@@ -14,6 +14,13 @@
 		1CD04DAE28743922005DC5A1 /* myWidgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD04DAD28743922005DC5A1 /* myWidgetTests.swift */; };
 		1CD04DB828743922005DC5A1 /* myWidgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD04DB728743922005DC5A1 /* myWidgetUITests.swift */; };
 		1CD04DBA28743922005DC5A1 /* myWidgetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD04DB928743922005DC5A1 /* myWidgetUITestsLaunchTests.swift */; };
+		1CD04DCD28743971005DC5A1 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD04DCC28743971005DC5A1 /* WidgetKit.framework */; };
+		1CD04DCF28743971005DC5A1 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD04DCE28743971005DC5A1 /* SwiftUI.framework */; };
+		1CD04DD228743971005DC5A1 /* idkwhattonamethiswidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD04DD128743971005DC5A1 /* idkwhattonamethiswidget.swift */; };
+		1CD04DD528743975005DC5A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD04DD428743975005DC5A1 /* Assets.xcassets */; };
+		1CD04DD728743975005DC5A1 /* idkwhattonamethiswidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1CD04DD328743971005DC5A1 /* idkwhattonamethiswidget.intentdefinition */; };
+		1CD04DD828743975005DC5A1 /* idkwhattonamethiswidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1CD04DD328743971005DC5A1 /* idkwhattonamethiswidget.intentdefinition */; };
+		1CD04DDB28743975005DC5A1 /* idkwhattonamethiswidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1CD04DCA28743971005DC5A1 /* idkwhattonamethiswidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +38,28 @@
 			remoteGlobalIDString = 1CD04D972874391F005DC5A1;
 			remoteInfo = myWidget;
 		};
+		1CD04DD928743975005DC5A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CD04D902874391F005DC5A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CD04DC928743971005DC5A1;
+			remoteInfo = idkwhattonamethiswidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1CD04DDF28743976005DC5A1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1CD04DDB28743975005DC5A1 /* idkwhattonamethiswidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1CD04D982874391F005DC5A1 /* myWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +73,13 @@
 		1CD04DB328743922005DC5A1 /* myWidgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myWidgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD04DB728743922005DC5A1 /* myWidgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myWidgetUITests.swift; sourceTree = "<group>"; };
 		1CD04DB928743922005DC5A1 /* myWidgetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myWidgetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1CD04DCA28743971005DC5A1 /* idkwhattonamethiswidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = idkwhattonamethiswidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD04DCC28743971005DC5A1 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		1CD04DCE28743971005DC5A1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		1CD04DD128743971005DC5A1 /* idkwhattonamethiswidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idkwhattonamethiswidget.swift; sourceTree = "<group>"; };
+		1CD04DD328743971005DC5A1 /* idkwhattonamethiswidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = idkwhattonamethiswidget.intentdefinition; sourceTree = "<group>"; };
+		1CD04DD428743975005DC5A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CD04DD628743975005DC5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +104,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1CD04DC728743971005DC5A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD04DCF28743971005DC5A1 /* SwiftUI.framework in Frameworks */,
+				1CD04DCD28743971005DC5A1 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +122,8 @@
 				1CD04D9A2874391F005DC5A1 /* myWidget */,
 				1CD04DAC28743922005DC5A1 /* myWidgetTests */,
 				1CD04DB628743922005DC5A1 /* myWidgetUITests */,
+				1CD04DD028743971005DC5A1 /* idkwhattonamethiswidget */,
+				1CD04DCB28743971005DC5A1 /* Frameworks */,
 				1CD04D992874391F005DC5A1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +134,7 @@
 				1CD04D982874391F005DC5A1 /* myWidget.app */,
 				1CD04DA928743922005DC5A1 /* myWidgetTests.xctest */,
 				1CD04DB328743922005DC5A1 /* myWidgetUITests.xctest */,
+				1CD04DCA28743971005DC5A1 /* idkwhattonamethiswidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,6 +176,26 @@
 			path = myWidgetUITests;
 			sourceTree = "<group>";
 		};
+		1CD04DCB28743971005DC5A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CD04DCC28743971005DC5A1 /* WidgetKit.framework */,
+				1CD04DCE28743971005DC5A1 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CD04DD028743971005DC5A1 /* idkwhattonamethiswidget */ = {
+			isa = PBXGroup;
+			children = (
+				1CD04DD128743971005DC5A1 /* idkwhattonamethiswidget.swift */,
+				1CD04DD328743971005DC5A1 /* idkwhattonamethiswidget.intentdefinition */,
+				1CD04DD428743975005DC5A1 /* Assets.xcassets */,
+				1CD04DD628743975005DC5A1 /* Info.plist */,
+			);
+			path = idkwhattonamethiswidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,10 +206,12 @@
 				1CD04D942874391F005DC5A1 /* Sources */,
 				1CD04D952874391F005DC5A1 /* Frameworks */,
 				1CD04D962874391F005DC5A1 /* Resources */,
+				1CD04DDF28743976005DC5A1 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1CD04DDA28743975005DC5A1 /* PBXTargetDependency */,
 			);
 			name = myWidget;
 			productName = myWidget;
@@ -185,6 +254,23 @@
 			productReference = 1CD04DB328743922005DC5A1 /* myWidgetUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		1CD04DC928743971005DC5A1 /* idkwhattonamethiswidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CD04DDC28743976005DC5A1 /* Build configuration list for PBXNativeTarget "idkwhattonamethiswidgetExtension" */;
+			buildPhases = (
+				1CD04DC628743971005DC5A1 /* Sources */,
+				1CD04DC728743971005DC5A1 /* Frameworks */,
+				1CD04DC828743971005DC5A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = idkwhattonamethiswidgetExtension;
+			productName = idkwhattonamethiswidgetExtension;
+			productReference = 1CD04DCA28743971005DC5A1 /* idkwhattonamethiswidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +292,9 @@
 						CreatedOnToolsVersion = 14.0;
 						TestTargetID = 1CD04D972874391F005DC5A1;
 					};
+					1CD04DC928743971005DC5A1 = {
+						CreatedOnToolsVersion = 14.0;
+					};
 				};
 			};
 			buildConfigurationList = 1CD04D932874391F005DC5A1 /* Build configuration list for PBXProject "myWidget" */;
@@ -224,6 +313,7 @@
 				1CD04D972874391F005DC5A1 /* myWidget */,
 				1CD04DA828743922005DC5A1 /* myWidgetTests */,
 				1CD04DB228743922005DC5A1 /* myWidgetUITests */,
+				1CD04DC928743971005DC5A1 /* idkwhattonamethiswidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +342,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1CD04DC828743971005DC5A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD04DD528743975005DC5A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,6 +359,7 @@
 			files = (
 				1CD04D9E2874391F005DC5A1 /* ContentView.swift in Sources */,
 				1CD04D9C2874391F005DC5A1 /* myWidgetApp.swift in Sources */,
+				1CD04DD828743975005DC5A1 /* idkwhattonamethiswidget.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +380,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1CD04DC628743971005DC5A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD04DD228743971005DC5A1 /* idkwhattonamethiswidget.swift in Sources */,
+				1CD04DD728743975005DC5A1 /* idkwhattonamethiswidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +401,11 @@
 			isa = PBXTargetDependency;
 			target = 1CD04D972874391F005DC5A1 /* myWidget */;
 			targetProxy = 1CD04DB428743922005DC5A1 /* PBXContainerItemProxy */;
+		};
+		1CD04DDA28743975005DC5A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CD04DC928743971005DC5A1 /* idkwhattonamethiswidgetExtension */;
+			targetProxy = 1CD04DD928743975005DC5A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -409,6 +522,7 @@
 		1CD04DBE28743922005DC5A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = myWidget/myWidget.entitlements;
@@ -441,6 +555,7 @@
 		1CD04DBF28743922005DC5A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = myWidget/myWidget.entitlements;
@@ -560,6 +675,65 @@
 			};
 			name = Release;
 		};
+		1CD04DDD28743976005DC5A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23M3RBF46C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = idkwhattonamethiswidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = idkwhattonamethiswidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Retrapps.myWidget.idkwhattonamethiswidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CD04DDE28743976005DC5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23M3RBF46C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = idkwhattonamethiswidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = idkwhattonamethiswidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Retrapps.myWidget.idkwhattonamethiswidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -595,6 +769,15 @@
 			buildConfigurations = (
 				1CD04DC428743922005DC5A1 /* Debug */,
 				1CD04DC528743922005DC5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CD04DDC28743976005DC5A1 /* Build configuration list for PBXNativeTarget "idkwhattonamethiswidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CD04DDD28743976005DC5A1 /* Debug */,
+				1CD04DDE28743976005DC5A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
